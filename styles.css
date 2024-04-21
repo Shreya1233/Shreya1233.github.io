@@ -96,6 +96,32 @@ html {
   padding: 20px;
 }
 
+.links {
+  position: absolute;
+  bottom: 20px;
+  /* Adjust as needed */
+  right: 20px;
+  /* Adjust as needed */
+}
+
+.link-box {
+  display: inline-block;
+  background-color: blue;
+  /* Your preferred shade of blue */
+  color: white;
+  /* Text color */
+  text-decoration: none;
+  /* Remove the underline from the links */
+  padding: 10px 20px;
+  /* Add some padding inside the boxes */
+  margin: 0 5px;
+  /* Add some space between the boxes */
+  border-radius: 5px;
+  /* Optional: if you want rounded corners */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  /* Optional: if you want to add a shadow effect */
+}
+
 .about-me-section {
   display: flex;
   align-items: center;
