@@ -85,18 +85,26 @@ html {
   /* This gives more space above and below the timeline */
 }
 
+
 .hover-image {
-  position: absolute;
-  top: 100%;
-  /* Adjust as needed */
-  left: 50%;
-  /* Adjust to center or position as needed */
-  transform: translateX(-50%);
-  /* Adjust to center or position as needed */
   display: none;
   /* Hide until hover */
+  position: absolute;
   z-index: 10;
   /* Make sure it appears above other elements */
+  transform: translate(-50%, -100%);
+  /* Adjust to center above the dot */
+  top: 0;
+  left: 50%;
+}
+
+.hover-image img {
+  max-width: 100px;
+  /* Set a max-width for the image */
+  max-height: 100px;
+  /* Set a max-height for the image */
+  object-fit: cover;
+  /* This will make sure the image covers the area without distorting */
 }
 
 
