@@ -99,12 +99,21 @@ html {
 }
 
 .hover-image img {
-  max-width: 100px;
+  max-width: 150px;
   /* Set a max-width for the image */
-  max-height: 100px;
+  max-height: 150px;
   /* Set a max-height for the image */
   object-fit: cover;
   /* This will make sure the image covers the area without distorting */
+}
+
+.timeline-header {
+  text-align: left;
+  /* Aligns the text to the left */
+  padding-left: 20px;
+  /* Adds some space from the left edge */
+  margin-top: 20px;
+  /* Adds space above the header */
 }
 
 
