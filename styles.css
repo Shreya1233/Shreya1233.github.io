@@ -147,6 +147,9 @@ html {
   /* Color of the line */
   top: 50%;
   transform: translateY(-50%);
+  left: 15%;
+  /* Start the line a bit further from the left edge */
+  right: 15%;
 }
 
 .dot {
