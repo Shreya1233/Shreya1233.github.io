@@ -14,41 +14,37 @@ html {
   padding: 20px;
 }
 
-.links {
-  position: absolute;
-  bottom: 20px;
-  /* Adjust as needed */
-  right: 20px;
-  /* Adjust as needed */
-}
-
-.link-box {
-  display: inline-block;
-  background-color: blue;
-  /* Your preferred shade of blue */
-  color: white;
-  /* Text color */
-  text-decoration: none;
-  /* Remove the underline from the links */
-  padding: 10px 20px;
-  /* Add some padding inside the boxes */
-  margin: 0 5px;
-  /* Add some space between the boxes */
-  border-radius: 5px;
-  /* Optional: if you want rounded corners */
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  /* Optional: if you want to add a shadow effect */
-}
-
 .about-me-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  /* Changed from center to flex-start to align items to the top */
   background-color: white;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 95%;
   margin: 0 auto;
   margin-top: 50px;
+  position: relative;
+  /* To allow absolute positioning inside */
+}
+
+.links {
+  position: absolute;
+  top: 20px;
+  /* Adjust as needed */
+  right: 20px;
+  /* Align to the right within the container */
+}
+
+.link-box {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .profile-photo {
