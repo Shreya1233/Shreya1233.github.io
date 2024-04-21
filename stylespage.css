@@ -1,55 +1,72 @@
 body,
 html {
-  height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #add8e6;
+  /* Assuming you want the light blue background */
 }
 
 .experience-container {
+  max-width: 1200px;
+  /* This limits the width on larger screens */
+  margin: auto;
+  /* This will center the container */
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 20px;
+  align-items: center;
+  /* This centers the child elements horizontally */
 }
 
 .media-container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  /* This allows items to wrap onto the next line on small screens */
+  width: 100%;
 }
 
 .media-box {
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  width: 30%;
+  flex: 1;
+  /* Allows the boxes to grow and take up equal space */
+  max-width: calc(33.333% - 40px);
+  /* 3 boxes, minus margin */
+  margin: 10px;
+  /* Adds space between the boxes */
   text-align: center;
 }
 
-.textual-description {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
+.media-box img {
+  width: 100%;
+  /* Makes image responsive */
+  height: auto;
+  /* Maintains aspect ratio */
+  max-height: 200px;
+  /* Limits the image height */
 }
 
+.textual-description,
 .skills-container {
-  display: flex;
-  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  /* Adds space between sections */
 }
 
 .technical-skills,
 .soft-skills {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 10px;
-  width: 45%;
-  text-align: center;
+  flex: 1;
+  /* Flex grow to available space */
+  margin: 10px;
 }
 
 button {
-  margin: 10px;
-  padding: 5px 15px;
+  margin: 5px;
+  padding: 10px 15px;
 }
 
-/* Add more styles as needed... */
+@media (max-width: 768px) {
+  .media-box {
+    max-width: 100%;
+    /* Each box takes full width on small screens */
+  }
+}
