@@ -1,4 +1,4 @@
-=function showImage(imageId) {
+function showImage(imageId) {
   // Hide all images first
   document.querySelectorAll('.hover-image').forEach(function (img) {
     img.style.display = 'none';
