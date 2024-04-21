@@ -136,7 +136,7 @@ html {
   position: relative;
   align-items: center;
   margin: 40px 0;
-  margin-top: 80px;
+  margin-top: 100px;
   /* This gives more space above and below the timeline */
 }
 
@@ -170,7 +170,7 @@ html {
   justify-content: space-between;
   padding: 20px;
   margin-bottom: 5px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .skills-box {
