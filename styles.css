@@ -99,9 +99,9 @@ html {
 }
 
 .hover-image img {
-  max-width: 150px;
+  max-width: 200px;
   /* Set a max-width for the image */
-  max-height: 150px;
+  max-height: 200px;
   /* Set a max-height for the image */
   object-fit: cover;
   /* This will make sure the image covers the area without distorting */
