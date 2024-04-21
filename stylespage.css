@@ -45,11 +45,25 @@ html {
   /* Limits the image height */
 }
 
-.textual-description,
+.internship-description-container {
+  width: 100%;
+  margin-top: 40px;
+  /* Increase margin to push it down from the media boxes */
+}
+
+.textual-description {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  /* This provides spacing between the header and the description */
+}
+
 .skills-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
+  margin-top: 40px;
+  /* Increase margin to push it down from the description */
 }
 
 
