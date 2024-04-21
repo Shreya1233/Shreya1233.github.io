@@ -131,8 +131,21 @@ html {
   justify-content: center;
   position: relative;
   align-items: center;
-  margin-top: 20px;
-  /* Adjust as needed for spacing */
+  margin: 40px 0;
+  /* This gives more space above and below the timeline */
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  /* Thickness of the line */
+  background-color: #000;
+  /* Color of the line */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .dot {
@@ -140,8 +153,7 @@ html {
   width: 20px;
   background-color: #000;
   border-radius: 50%;
-  margin: 0 15px;
-  /* Adjust as needed */
+  position: relative;
 }
 
 .skills-section {
