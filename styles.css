@@ -102,6 +102,8 @@ html {
   background-color: white;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
 }
 
 .profile-photo {
@@ -158,7 +160,7 @@ html {
   background-color: #000;
   border-radius: 50%;
   position: relative;
-  margin: 0 8%;
+  margin: 0 10%;
 }
 
 .skills-section {
