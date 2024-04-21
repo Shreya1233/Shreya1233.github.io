@@ -135,8 +135,8 @@ html {
   justify-content: center;
   position: relative;
   align-items: center;
-  margin: 120px 0;
-  /* margin-top: 500px; */
+  margin: 40px 0;
+  margin-top: 150px;
   /* This gives more space above and below the timeline */
 }
 
