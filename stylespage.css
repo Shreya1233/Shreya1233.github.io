@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.experience-container {
+  background-color: #add8e6;
+  width: 100%;
+  padding: 20px;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.media-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.textual-description {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.technical-skills,
+.soft-skills {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 15px;
+}
+
+/* Add more styles as needed... */

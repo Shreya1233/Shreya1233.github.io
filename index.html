@@ -20,15 +20,24 @@
         sperm, are enclosed within pollen grains produced in the anthers. The female gametophytes are contained within
         the ovules produced in the carpels.Update 1 bazillion has occurred</p>
     </div>
-    <div class="links">
-      <a href="https://github.com/Shreya1233" class="link-box" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/shreyak500/" class="link-box" target="_blank">LinkedIn</a>
-    </div>
+  </div>
+  <div class="links">
+    <a href="https://github.com/Shreya1233" class="link-box" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/shreyak500/" class="link-box" target="_blank">LinkedIn</a>
   </div>
   <div class="timeline">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+    <span class="dot" id="dot1" onmouseover="showImage('image1')" onclick="goToPage('page1.html')"></span>
+    <span class="dot" id="dot2" onmouseover="showImage('image2')" onclick="goToPage('page2.html')"></span>
+    <span class="dot" id="dot3" onmouseover="showImage('image3')" onclick="goToPage('page3.html')"></span>
+  </div>
+  <div id="image1" class="hover-image" style="display:none;">
+    <img src="image1.jpg" alt="Image 1" />
+  </div>
+  <div id="image2" class="hover-image" style="display:none;">
+    <img src="image2.jpg" alt="Image 2" />
+  </div>
+  <div id="image3" class="hover-image" style="display:none;">
+    <img src="image3.jpg" alt="Image 3" />
   </div>
   <div class="skills-section">
     <div class="skills-box" id="technical-skills">
@@ -57,6 +66,7 @@
       </ul>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

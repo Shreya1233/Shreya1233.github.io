@@ -85,6 +85,21 @@ html {
   /* This gives more space above and below the timeline */
 }
 
+.hover-image {
+  position: absolute;
+  top: 100%;
+  /* Adjust as needed */
+  left: 50%;
+  /* Adjust to center or position as needed */
+  transform: translateX(-50%);
+  /* Adjust to center or position as needed */
+  display: none;
+  /* Hide until hover */
+  z-index: 10;
+  /* Make sure it appears above other elements */
+}
+
+
 .timeline::before {
   content: '';
   position: absolute;
