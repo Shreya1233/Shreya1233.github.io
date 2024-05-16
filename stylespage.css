@@ -26,19 +26,11 @@ html {
 }
 
 .inline-image {
-  max-width: 200px;
+  width: 100%;
+  max-width: 600px;
   height: auto;
-  margin: 10px;
-}
-
-.inline-image.left {
-  float: left;
-  margin-right: 20px;
-}
-
-.inline-image.right {
-  float: right;
-  margin-left: 20px;
+  margin: 20px auto;
+  display: block;
 }
 
 .skills-container {
@@ -101,8 +93,6 @@ html {
   }
 
   .inline-image {
-    float: none;
-    display: block;
-    margin: 10px auto;
+    width: 100%;
   }
 }

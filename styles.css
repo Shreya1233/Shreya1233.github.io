@@ -12,25 +12,27 @@ html {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
+  /* Reduced padding to fit more content */
 }
 
 .about-me-section {
   display: flex;
   align-items: flex-start;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
+  /* Reduced padding to fit more content */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 95%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   position: relative;
 }
 
 .links {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
 }
 
 .link-box {
@@ -38,17 +40,19 @@ html {
   background-color: blue;
   color: white;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 5px 10px;
+  /* Reduced padding to fit more content */
   margin: 0 5px;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+  /* Reduced size to fit more content */
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .about-me-content {
@@ -57,31 +61,32 @@ html {
 
 .social-links {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 10px;
+  bottom: 10px;
 }
 
 .social-links a {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .timeline-header {
   text-align: left;
-  padding-left: 20px;
-  margin-top: 20px;
-  margin-left: 30px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .timeline-instructions {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .timeline {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px 0;
+  margin: 10px 0;
   position: relative;
   width: 80%;
   margin-left: auto;
@@ -107,10 +112,11 @@ html {
 }
 
 .timeline-image img {
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 100px;
+  /* Reduced size to fit more content */
   object-fit: contain;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .dot {
@@ -130,27 +136,28 @@ html {
 }
 
 .timeline-label {
-  margin-top: 30px;
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .skills-section {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 10px;
+  margin-top: 20px;
   flex-grow: 1;
 }
 
 .skills-box {
   width: 30%;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .skills-box h2 {
   margin-top: 0;
+  font-size: 16px;
 }
 
 .skills-box ul {
@@ -162,4 +169,5 @@ html {
   background-color: #f3f3f3;
   padding: 5px;
   margin-bottom: 5px;
+  font-size: 14px;
 }
