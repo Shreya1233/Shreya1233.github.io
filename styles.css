@@ -96,7 +96,7 @@ html {
   right: 0;
   height: 2px;
   background-color: #000;
-  bottom: 10px;
+  top: 50%;
   /* Adjusted to make sure the line goes through the center of the dots */
   transform: translateY(-50%);
 }
@@ -116,7 +116,7 @@ html {
   /* Set a fixed height */
   object-fit: contain;
   /* Ensure the entire image fits within the dimensions */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   /* Margin added to separate image from the dot */
 }
 
@@ -126,7 +126,7 @@ html {
   background-color: #000;
   border-radius: 50%;
   position: relative;
-  bottom: -10px;
+  bottom: 0;
   /* Adjusted to position dot on the timeline */
 }
 
