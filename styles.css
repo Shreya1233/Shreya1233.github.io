@@ -96,14 +96,17 @@ html {
   right: 0;
   height: 2px;
   background-color: #000;
-  top: calc(50% + 30px);
-  /* Adjusted to make sure the line goes through the dots */
+  bottom: 20px;
+  /* Adjusted to make sure the line goes through the center of the dots */
   transform: translateY(-50%);
 }
 
 .timeline-item {
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timeline-image img {
@@ -111,9 +114,8 @@ html {
   /* Increased size */
   max-height: 200px;
   object-fit: cover;
-  display: block;
-  margin: 0 auto 20px auto;
-  /* Margin added to separate image from the line */
+  margin-bottom: 10px;
+  /* Margin added to separate image from the dot */
 }
 
 .dot {
@@ -121,10 +123,9 @@ html {
   width: 20px;
   background-color: #000;
   border-radius: 50%;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  bottom: -10px;
   /* Adjusted to position dot on the timeline */
-  transform: translateY(-50%);
 }
 
 .timeline-label {
