@@ -96,7 +96,7 @@ html {
   right: 0;
   height: 2px;
   background-color: #000;
-  bottom: 20px;
+  bottom: 10px;
   /* Adjusted to make sure the line goes through the center of the dots */
   transform: translateY(-50%);
 }
@@ -110,13 +110,13 @@ html {
 }
 
 .timeline-image img {
-  width: 150px;
-  /* Set a fixed width */
+  width: 200px;
+  /* Set a wider width */
   height: 150px;
   /* Set a fixed height */
-  object-fit: cover;
-  /* Ensure the image covers the area without distorting */
-  margin-bottom: 10px;
+  object-fit: contain;
+  /* Ensure the entire image fits within the dimensions */
+  margin-bottom: 20px;
   /* Margin added to separate image from the dot */
 }
 
