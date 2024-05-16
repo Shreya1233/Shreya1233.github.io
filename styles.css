@@ -13,7 +13,6 @@ html {
   justify-content: space-between;
   height: 100%;
   padding: 10px;
-  /* Reduced padding to fit more content */
 }
 
 .about-me-section {
@@ -21,7 +20,6 @@ html {
   align-items: flex-start;
   background-color: white;
   padding: 10px;
-  /* Reduced padding to fit more content */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 95%;
   margin: 0 auto;
@@ -41,7 +39,6 @@ html {
   color: white;
   text-decoration: none;
   padding: 5px 10px;
-  /* Reduced padding to fit more content */
   margin: 0 5px;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
@@ -50,7 +47,6 @@ html {
 .profile-photo {
   width: 100px;
   height: 100px;
-  /* Reduced size to fit more content */
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -79,7 +75,8 @@ html {
 .timeline-instructions {
   text-align: center;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
+  /* Increased font size */
 }
 
 .timeline {
@@ -114,7 +111,6 @@ html {
 .timeline-image img {
   width: 150px;
   height: 100px;
-  /* Reduced size to fit more content */
   object-fit: contain;
   margin-bottom: 10px;
 }
@@ -144,14 +140,17 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
+  /* Increased margin to move the section lower */
   flex-grow: 1;
 }
 
 .skills-box {
-  width: 30%;
+  width: 32%;
+  /* Increased width to make the boxes bigger */
   background-color: #ffffff;
-  padding: 10px;
+  padding: 15px;
+  /* Increased padding for bigger boxes */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -167,7 +166,8 @@ html {
 
 .skills-box ul li {
   background-color: #f3f3f3;
-  padding: 5px;
+  padding: 10px;
+  /* Increased padding for bigger boxes */
   margin-bottom: 5px;
   font-size: 14px;
 }

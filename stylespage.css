@@ -60,6 +60,21 @@ html {
   margin: 5px 0;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-left: 30px;
+}
+
+.technical-skills li::before,
+.soft-skills li::before {
+  content: '•';
+  /* Custom bullet point */
+  color: #3498db;
+  /* Bullet point color */
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .return-button-container {
