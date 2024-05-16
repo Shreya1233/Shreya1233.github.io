@@ -96,7 +96,7 @@ html {
   right: 0;
   height: 2px;
   background-color: #000;
-  top: 71.5%;
+  top: 72.5%;
 }
 
 .timeline-item {
@@ -140,6 +140,8 @@ html {
   justify-content: space-between;
   padding: 20px;
   margin-top: 60px;
+  flex-grow: 1;
+  height: auto;
   /* Increased margin-top to put the skills section lower */
 }
 
