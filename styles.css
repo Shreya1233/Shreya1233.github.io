@@ -5,7 +5,6 @@ html {
   font-family: Arial, sans-serif;
   background-color: #add8e6;
   overflow: hidden;
-  /* Prevent scrolling */
 }
 
 .container {
@@ -25,7 +24,6 @@ html {
   width: 95%;
   margin: 0 auto;
   margin-top: 20px;
-  /* Reduced to fit content within one screen */
   position: relative;
 }
 
@@ -72,19 +70,20 @@ html {
   padding-left: 20px;
   margin-top: 20px;
   margin-left: 30px;
-  /* Aligns the timeline header with the about me section */
+}
+
+.timeline-instructions {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .timeline {
   display: flex;
   justify-content: space-evenly;
-  /* Ensures equal spacing between items */
   align-items: center;
   margin: 20px 0;
-  /* Reduced to fit content within one screen */
   position: relative;
   width: 80%;
-  /* Adjust as needed to fit your layout */
   margin-left: auto;
   margin-right: auto;
 }
@@ -109,13 +108,9 @@ html {
 
 .timeline-image img {
   width: 200px;
-  /* Set a wider width */
   height: 150px;
-  /* Set a fixed height */
   object-fit: contain;
-  /* Ensure the entire image fits within the dimensions */
   margin-bottom: 30px;
-  /* Margin added to separate image from the dot */
 }
 
 .dot {
@@ -125,14 +120,18 @@ html {
   border-radius: 50%;
   position: relative;
   bottom: 0;
-  /* Adjusted to position dot on the timeline */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dot:hover {
+  background-color: #3498db;
+  transform: scale(1.2);
 }
 
 .timeline-label {
   margin-top: 30px;
-  /* Adjusted to add space between dot and label */
   font-size: 18px;
-  /* Increased font size */
 }
 
 .skills-section {
@@ -141,8 +140,6 @@ html {
   padding: 20px;
   margin-top: 60px;
   flex-grow: 1;
-  height: auto;
-  /* Increased margin-top to put the skills section lower */
 }
 
 .skills-box {
