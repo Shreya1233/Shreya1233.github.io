@@ -110,10 +110,12 @@ html {
 }
 
 .timeline-image img {
-  max-width: 200px;
-  /* Increased size */
-  max-height: 200px;
+  width: 150px;
+  /* Set a fixed width */
+  height: 150px;
+  /* Set a fixed height */
   object-fit: cover;
+  /* Ensure the image covers the area without distorting */
   margin-bottom: 10px;
   /* Margin added to separate image from the dot */
 }
