@@ -77,21 +77,26 @@ html {
 
 .timeline {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  /* Added to increase distance between dots */
   align-items: center;
   margin: 20px 0;
   /* Reduced to fit content within one screen */
   position: relative;
+  width: 70%;
+  /* Adjust as needed to fit your layout */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timeline::before {
   content: '';
   position: absolute;
-  left: 15%;
-  right: 15%;
+  left: 0;
+  right: 0;
   height: 2px;
   background-color: #000;
-  top: 60%;
+  top: 50%;
   /* Adjusted to make sure the line goes through the dots */
   transform: translateY(-50%);
 }
@@ -99,14 +104,12 @@ html {
 .timeline-item {
   text-align: center;
   position: relative;
-  margin: 0 5%;
-  /* Reduced to fit content within one screen */
 }
 
 .timeline-image img {
-  max-width: 150px;
-  /* Reduced to fit content within one screen */
-  max-height: 150px;
+  max-width: 200px;
+  /* Increased size */
+  max-height: 200px;
   object-fit: cover;
   display: block;
   margin: 0 auto 20px auto;
@@ -121,7 +124,7 @@ html {
   position: relative;
   display: block;
   margin: 0 auto;
-  top: -20px;
+  top: 0;
   /* Adjusted to position dot on the timeline */
 }
 
@@ -129,13 +132,15 @@ html {
   margin-top: 10px;
   font-size: 18px;
   /* Increased font size */
+  display: flex;
+  justify-content: center;
 }
 
 .skills-section {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 60px;
   /* Increased margin-top to put the skills section lower */
 }
 
