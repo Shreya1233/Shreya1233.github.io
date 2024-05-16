@@ -27,30 +27,31 @@
   <div class="timeline-header">
     <h2>Timeline</h2>
   </div>
-  <!-- <div class="cf ph3 ph5-ns">
-    ::before
-    <h2 class="f1-ns f2 center lh-title tc mw7 mt3-ns mt2 mb3 black-70 athenas lh-title avenir">Trips</h2>
-    <hr class="mw3 p0 b0 bt bw1 b--light-red light-red bg-light-red">
-    <div id="trips-nav" class="mw7 center black-70">...</div>
-    <section id="latest-trips" class="mw7 mt3 ph3-l ph2 center">...</section>
-    ::after
-  </div>
-  <div class="cf ph3 ph5-ns">...</div> -->
 
   <div class="timeline">
-    <span class="dot" id="dot1" onmouseover="showImage('image1')" onclick="goToPage('page1.html')"></span>
-    <span class="dot" id="dot2" onmouseover="showImage('image2')" onclick="goToPage('page2.html')"></span>
-    <span class="dot" id="dot3" onmouseover="showImage('image3')" onclick="goToPage('page3.html')"></span>
+    <div class="timeline-item">
+      <div class="timeline-image">
+        <img src="image1.jpg" alt="Image 1" />
+      </div>
+      <span class="dot" id="dot1" onclick="goToPage('page1.html')"></span>
+      <div class="timeline-label">Experience 1</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-image">
+        <img src="image2.jpg" alt="Image 2" />
+      </div>
+      <span class="dot" id="dot2" onclick="goToPage('page2.html')"></span>
+      <div class="timeline-label">Experience 2</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-image">
+        <img src="image3.jpg" alt="Image 3" />
+      </div>
+      <span class="dot" id="dot3" onclick="goToPage('page3.html')"></span>
+      <div class="timeline-label">Experience 3</div>
+    </div>
   </div>
-  <div id="image1" class="hover-image" style="display:none;">
-    <img src="image1.jpg" alt="Image 1" />
-  </div>
-  <div id="image2" class="hover-image" style="display:none;">
-    <img src="image2.jpg" alt="Image 2" />
-  </div>
-  <div id="image3" class="hover-image" style="display:none;">
-    <img src="image3.jpg" alt="Image 3" />
-  </div>
+
   <div class="skills-section">
     <div class="skills-box" id="technical-skills">
       <h2>Technical Skills</h2>
