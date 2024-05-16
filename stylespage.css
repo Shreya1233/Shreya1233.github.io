@@ -3,58 +3,42 @@ html {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #add8e6;
-  /* Assuming you want the light blue background */
+  overflow-y: auto;
 }
 
 .experience-container {
   max-width: 1200px;
-  /* This limits the width on larger screens */
   margin: auto;
-  /* This will center the container */
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* This centers the child elements horizontally */
-}
-
-.media-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  /* This allows items to wrap onto the next line on small screens */
-  width: 100%;
-}
-
-.media-box {
-  flex: 1;
-  /* Allows the boxes to grow and take up equal space */
-  max-width: calc(33.333% - 20px);
-  /* 3 boxes, minus margin */
-  margin: 10px;
-  /* Adds space between the boxes */
-  text-align: center;
-}
-
-.media-box img {
-  width: 100%;
-  /* Makes image responsive */
-  height: auto;
-  /* Maintains aspect ratio */
-  max-height: 200px;
-  /* Limits the image height */
 }
 
 .internship-description-container {
   width: 100%;
   margin-top: 40px;
-  /* Increase margin to push it down from the media boxes */
 }
 
 .textual-description {
   padding: 20px;
   margin-top: 20px;
-  /* This provides spacing between the header and the description */
+}
+
+.inline-image {
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.inline-image.left {
+  float: left;
+  margin-right: 20px;
+}
+
+.inline-image.right {
+  float: right;
+  margin-left: 20px;
 }
 
 .skills-container {
@@ -62,16 +46,13 @@ html {
   justify-content: space-between;
   width: 100%;
   margin-top: 40px;
-  /* Increase margin to push it down from the description */
 }
 
 .technical-skills,
 .soft-skills {
   width: calc(50% - 20px);
-  /* Subtract margin */
   margin: 10px;
   box-sizing: border-box;
-  /* Include padding and borders in the element's total width and height */
 }
 
 .technical-skills ul,
@@ -86,7 +67,6 @@ html {
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
-  /* Optional: Add a small shadow for depth */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -95,37 +75,34 @@ html {
   top: 10px;
   right: 10px;
   z-index: 100;
-  /* Ensures it stays on top of other elements */
 }
 
 .return-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #3498db;
-  /* Example blue color, adjust as needed */
   color: white;
-  /* Text color */
   text-decoration: none;
-  /* Removes underline from the link */
   border-radius: 5px;
-  /* Rounded corners for aesthetics */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  /* Optional: Adds a small shadow for depth */
   transition: background-color 0.3s;
-  /* Smooth transition for hover effect */
 }
 
 .return-button:hover {
   background-color: #2980b9;
-  /* Darker blue on hover, adjust as needed */
 }
 
 @media (max-width: 768px) {
 
-  /* For smaller screens, you might want to stack them or adjust the layout accordingly */
   .technical-skills,
   .soft-skills {
     width: 100%;
     margin: 10px 0;
+  }
+
+  .inline-image {
+    float: none;
+    display: block;
+    margin: 10px auto;
   }
 }
