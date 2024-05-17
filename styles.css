@@ -97,7 +97,8 @@ html {
   right: 0;
   height: 2px;
   background-color: #000;
-  top: 75%;
+  top: 80%;
+  /* Adjusted top to align the dots */
 }
 
 .timeline-item {
