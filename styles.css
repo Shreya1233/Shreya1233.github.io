@@ -152,3 +152,25 @@ html {
   width: 28%;
   /* Reduced width to add space between boxes */
   background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  /* Added margin to create space between boxes */
+}
+
+.skills-box h2 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.skills-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-box ul li {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
