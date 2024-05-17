@@ -174,3 +174,16 @@ html {
   margin-bottom: 5px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+
+  .technical-skills,
+  .soft-skills {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .inline-image {
+    width: 100%;
+  }
+}
