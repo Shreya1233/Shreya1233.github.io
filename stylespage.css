@@ -96,6 +96,14 @@ html {
   background-color: #2980b9;
 }
 
+.inline-video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
 @media (max-width: 768px) {
 
   .technical-skills,

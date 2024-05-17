@@ -109,8 +109,10 @@ html {
 }
 
 .timeline-image img {
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  /* Increased width */
+  height: 150px;
+  /* Increased height */
   object-fit: contain;
   margin-bottom: 10px;
 }
